@@ -1,0 +1,84 @@
+.fontcn{
+    font-family: san, cursive, sans-serif;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+}
+.font{
+    font-family: san, cursive, sans-serif;
+}
+.cn_borderstyle{
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.menue_btn{
+    height: 80px;
+    width: 200px;
+    background-color: palevioletred;
+    font-size: 30pt;
+    color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#abt_cn{
+    padding: 50pt;
+}
+#abt_txt{
+    background-color: azure;
+    font-size: 15pt;
+    height: 500;
+    width: 800;
+    resize: none;
+}
+#gal_cn{
+    padding: 50pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgmove{
+    height: 50px;
+    width: 50px;
+
+}
+#comp_cn{
+    padding: 50px;
+}
+#comp_cn_subcn{
+    text-align:center;
+    padding: 100px;
+}
+#comptext{
+    height: 200px;
+    width: 300px;
+}
+#sendbtn{
+    background-color: chartreuse;
+    height: 40px;
+    width: 70px;
+}
+::placeholder{
+    font-family: san, cursive, sans-serif;
+}
+
+#ser_cn{
+    list-style: none;
+}
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.wrapper > #ser {
+    width: 200px;
+}
+
+.dropdown {
+    position: absolute;
+    
+    right: 37%;
+    width: 180;
+    background:palevioletred;
+    border: 1px solid #ccc;
+}

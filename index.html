@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Snow man</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="wrapper" class="center">
+       
+        <input  class="font menue_btn"  id="abt" type="button" value="About">
+        <input  class="font menue_btn" id="gal" type="button" value="Gallery">
+     
+        <input  class="font menue_btn" id="ser" type="button" value="Services">
+        <div class="dropdown container">
+         <div class="ser">
+            
+            <div>Item#1</div>
+            <hr>
+            <div>Item#2</div>
+            <hr>
+            <div>Item#3</div>
+            
+         </div>
+        </div>
+     
+        <input  class="font menue_btn" id="comp" type="button" value="Complain">
+    </div>
+
+   <div class="center container" id="abt_cn" >
+    <textarea class="cn_borderstyle font center" name="Snow man!!!" id="abt_txt" readonly>This is the story of a snow man!!!</textarea>
+   </div> 
+   
+   <div class="center container" id="gal_cn">
+    <img class="imgmove" src="./images/left.png" alt="Prev">
+    <img src="./images/1.jpg" height="500" width="500">
+    <img class="imgmove" src="./images/right.png" alt="Prev">
+   </div> 
+
+
+   <div class="center container" id="comp_cn">
+    <div id="comp_cn_subcn">
+        
+        <span class="fontcn">Name: </span><input id="name" type="text" placeholder="Enter your name">
+        <br><br>
+        <span class="fontcn">Email: </span><input id="email" type="text" placeholder="Enter your email" >
+        <br><br>
+        <p class="fontcn">Complain</p>
+        <textarea class="font center" name="Snow man!!!" id="message" placeholder="Enter your complaint here!!!"></textarea>
+        <br><br>
+        <input class="fontcn" id="sendBtn" type="button" value="Send">
+    </div>
+    <div class="preview center" style="display:none;">
+        <h3>Preview</h3>
+        <p id="pName"></p>
+        <p id="pEmail"></p>
+        <p id="pMessage"></p>
+        <button id="editBtn">Edit</button>
+    </div>
+   </div>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="jqtask2.js"></script>
+    
+</body>
+</html>
